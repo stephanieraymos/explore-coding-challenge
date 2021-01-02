@@ -1,3 +1,4 @@
+
 html {
   height: 100%;
   background: #611818 url(img/trees.png) no-repeat center;
@@ -21,6 +22,8 @@ body {
   font-weight: bold;
   margin-left: 5%;
   margin-top: 20%;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .more-details {
@@ -77,12 +80,28 @@ body {
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
   color: #444;
-    box-shadow: 10px 10px 8px black;
+  box-shadow: 10px 10px 8px black;
 }
 
 .modal-content h1 {
   color: #611818;
   font-size: 5vw;
+
+}
+
+hr{
+  border: 0;
+  height: 2px;
+  width: 50%;
+  margin-top: -20px;
+  margin-left: 0px;
+  background: #611818;
+  background-position: left top;
+  background-attachment: fixed;
+  background-image: -webkit-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
+  background-image: -moz-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
+  background-image: -ms-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
+  background-image: -o-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
 }
 
 /* The Close Button */
