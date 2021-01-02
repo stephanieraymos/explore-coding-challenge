@@ -4,7 +4,8 @@
   "description": "",
   "main": "modal.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass . --watch --recursive --output css"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/stephanieraymos/explore-coding-challenge#readme",
   "dependencies": {
     "aos": "^2.3.4"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
   }
 }
+

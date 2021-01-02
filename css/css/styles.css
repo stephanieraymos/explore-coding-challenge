@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+  background: #611818 url(../../img/trees.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 100% 0;
+  background-size: 75% 100%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+/* Explore main text overlay */
+.explore {
+  font-size: 15vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  margin-left: 5%;
+  margin-top: 20%;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+/* More details button */
+.more-details {
+  background-color: transparent;
+  border: none;
+  margin-left: 10%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold; }
+
+/* Facebook button */
+.facebook {
+  background-color: transparent;
+  border: none;
+  bottom: 12%;
+  right: 1.2%;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  position: fixed; }
+
+/* Instagram button */
+.instagram {
+  background-color: transparent;
+  border: none;
+  bottom: 3%;
+  right: 1%;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  position: fixed; }
+
+/* MODAL */
+/*Modal Background*/
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  /*Sit on top*/
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  overflow: auto;
+  /* Enable scroll if needed */ }
+
+/*Modal Content Box*/
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+  color: #444;
+  box-shadow: 10px 10px 8px black; }
+
+.modal-content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #611818;
+  font-size: 4vw;
+  margin: 20px 40px;
+  font-weight: bold; }
+
+hr {
+  border: 0;
+  height: 2px;
+  width: 50%;
+  margin-top: 0px;
+  margin-left: 45px;
+  background: #611818;
+  background-position: left top;
+  background-attachment: fixed;
+  background-image: -webkit-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
+  background-image: -moz-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
+  background-image: -ms-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
+  background-image: -o-linear-gradient(left, #B2B2B2, #611818, #B2B2B2); }
+
+.modal-content p {
+  margin: 40px 50px; }
+
+/* Read more button */
+.read-more-btn {
+  margin: 30px 0;
+  border: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin-left: 40px;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  background-image: -webkit-linear-gradient(left, #611818, #B2B2B2);
+  background-image: -moz-linear-gradient(left, #611818, #B2B2B2);
+  background-image: -ms-linear-gradient(left, #611818, #B2B2B2);
+  background-image: -o-linear-gradient(left, #611818, #B2B2B2); }
+
+/* Anchors */
+a {
+  text-decoration: none;
+  color: white; }
+
+/* Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer; }

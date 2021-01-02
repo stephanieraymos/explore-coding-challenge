@@ -1,7 +1,8 @@
-
+$main-color: #611818;
+$gray-linear: #B2B2B2;
 html {
   height: 100%;
-  background: #611818 url(img/trees.png) no-repeat center;
+  background: $main-color url(../../img/trees.png) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -91,7 +92,7 @@ body {
 
 .modal-content h1 {
   font-family: Arial, Helvetica, sans-serif;
-  color: #611818;
+  color: $main-color;
   font-size: 4vw;
   margin: 20px 40px;
   font-weight: bold;
@@ -104,13 +105,13 @@ hr {
   width: 50%;
   margin-top: 0px;
   margin-left: 45px;
-  background: #611818;
+  background: $main-color;
   background-position: left top;
   background-attachment: fixed;
-  background-image: -webkit-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
-  background-image: -moz-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
-  background-image: -ms-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
-  background-image: -o-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
+  background-image: -webkit-linear-gradient(left, $gray-linear, $main-color, $gray-linear);
+  background-image: -moz-linear-gradient(left, $gray-linear, $main-color, $gray-linear);
+  background-image: -ms-linear-gradient(left, $gray-linear, $main-color, $gray-linear);
+  background-image: -o-linear-gradient(left, $gray-linear, $main-color, $gray-linear);
 }
 
 .modal-content p {
@@ -127,10 +128,10 @@ hr {
   margin-left: 40px;
   font-size: 1.5em;
   letter-spacing: .1em;
-  background-image: -webkit-linear-gradient(left, #611818, #B2B2B2);
-  background-image: -moz-linear-gradient(left, #611818, #B2B2B2);
-  background-image: -ms-linear-gradient(left, #611818, #B2B2B2);
-  background-image: -o-linear-gradient(left, #611818, #B2B2B2);
+  background-image: -webkit-linear-gradient(left, $main-color, $gray-linear);
+  background-image: -moz-linear-gradient(left, $main-color, $gray-linear);
+  background-image: -ms-linear-gradient(left, $main-color, $gray-linear);
+  background-image: -o-linear-gradient(left, $main-color, $gray-linear);
 }
 
 /* Anchors */
