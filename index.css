@@ -84,17 +84,24 @@ body {
 }
 
 .modal-content h1 {
+  font-family: Arial, Helvetica, sans-serif;
   color: #611818;
-  font-size: 5vw;
+  font-size: 4vw;
+  margin: 20px 40px;
+  font-weight: bold;
 
+}
+
+.modal-content p{
+  margin: 40px 50px;
 }
 
 hr{
   border: 0;
   height: 2px;
   width: 50%;
-  margin-top: -20px;
-  margin-left: 0px;
+  margin-top: 0px;
+  margin-left: 45px;
   background: #611818;
   background-position: left top;
   background-attachment: fixed;
@@ -102,6 +109,21 @@ hr{
   background-image: -moz-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
   background-image: -ms-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
   background-image: -o-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
+}
+
+.read-more-btn {
+  margin: 30px 0;
+  border: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin-left: 40px;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  background-image: -webkit-linear-gradient(left, #611818, #B2B2B2);
+  background-image: -moz-linear-gradient(left,#611818, #B2B2B2);
+  background-image: -ms-linear-gradient(left,#611818, #B2B2B2);
+  background-image: -o-linear-gradient(left, #611818, #B2B2B2);
 }
 
 /* The Close Button */
