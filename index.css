@@ -81,9 +81,10 @@ body {
 /*Modal Content Box*/
 .modal-content {
   background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 80%; /* Could be more or less, depending on screen size */
   color: #444;
   box-shadow: 10px 10px 8px black;
 }
@@ -112,7 +113,7 @@ hr {
   background-image: -o-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
 }
 
-.modal-content p{
+.modal-content p {
   margin: 40px 50px;
 }
 
@@ -127,8 +128,8 @@ hr {
   font-size: 1.5em;
   letter-spacing: .1em;
   background-image: -webkit-linear-gradient(left, #611818, #B2B2B2);
-  background-image: -moz-linear-gradient(left,#611818, #B2B2B2);
-  background-image: -ms-linear-gradient(left,#611818, #B2B2B2);
+  background-image: -moz-linear-gradient(left, #611818, #B2B2B2);
+  background-image: -ms-linear-gradient(left, #611818, #B2B2B2);
   background-image: -o-linear-gradient(left, #611818, #B2B2B2);
 }
 

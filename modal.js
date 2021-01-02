@@ -15,7 +15,6 @@ span.onclick = function () {
   modal.style.display = "none";
 }
 
-//Close modal if clicked off modal screen
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
