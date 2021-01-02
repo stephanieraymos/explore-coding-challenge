@@ -15,6 +15,7 @@ body {
   padding: 0;
 }
 
+/* Explore main text overlay */
 .explore {
   font-size: 15vw;
   font-family: Arial, Helvetica, sans-serif;
@@ -26,6 +27,7 @@ body {
   padding-bottom: 0;
 }
 
+/* More details button */
 .more-details {
   background-color: transparent;
   border: none;
@@ -36,6 +38,7 @@ body {
   font-weight: bold;
 }
 
+/* Facebook button */
 .facebook {
   background-color: transparent;
   border: none;
@@ -47,6 +50,7 @@ body {
   position: fixed;
 }
 
+/* Instagram button */
 .instagram {
   background-color: transparent;
   border: none;
@@ -58,27 +62,28 @@ body {
   position: fixed;
 }
 
+
+
 /* MODAL */
 
-/* The Modal (background) */
+/*Modal Background*/
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none;
+  position: fixed;
+  z-index: 1; /*Sit on top*/
   left: 0;
   top: 0;
-  width: 40%; /* Full width */
-  height: 100%; /* Full height */
+  width: 40%;
+  height: 100%;
   overflow: auto; /* Enable scroll if needed */
 }
 
-/* Modal Content/Box */
+/*Modal Content Box*/
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%;
   color: #444;
   box-shadow: 10px 10px 8px black;
 }
@@ -92,11 +97,7 @@ body {
 
 }
 
-.modal-content p{
-  margin: 40px 50px;
-}
-
-hr{
+hr {
   border: 0;
   height: 2px;
   width: 50%;
@@ -111,6 +112,11 @@ hr{
   background-image: -o-linear-gradient(left, #B2B2B2, #611818, #B2B2B2);
 }
 
+.modal-content p{
+  margin: 40px 50px;
+}
+
+/* Read more button */
 .read-more-btn {
   margin: 30px 0;
   border: none;
@@ -126,12 +132,13 @@ hr{
   background-image: -o-linear-gradient(left, #611818, #B2B2B2);
 }
 
+/* Anchors */
 a {
   text-decoration: none;
   color: white;
 }
 
-/* The Close Button */
+/* Close Button */
 .close {
   color: #aaa;
   float: right;
