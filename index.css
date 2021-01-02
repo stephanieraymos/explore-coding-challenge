@@ -1,16 +1,24 @@
-body {
-  padding: 0;
-  margin: 0;
-  background-color: #611818;
-  background-image: url("img/trees.png");
-  background-repeat: no-repeat;
+html {
+  height: 100%;
+  background: #611818 url(img/trees.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-position: 100% 0;
-  background-size: 75%;
+  background-size: 75% 100%;
 }
 
-/* img {
-  position: absolute;
-  height: 100%;
-  width: auto;
-  margin-left: 25%;
-} */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.explore {
+  font-size: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  margin-left: 5%;
+  margin-top: 20%;
+}
