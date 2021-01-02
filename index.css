@@ -126,6 +126,11 @@ hr{
   background-image: -o-linear-gradient(left, #611818, #B2B2B2);
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* The Close Button */
 .close {
   color: #aaa;
