@@ -1,6 +1,7 @@
 # Explore coding challenge
 
-##Packages used with NPM:
-#node-sass
-#aos
+## Packages used with NPM:
+
+### node-sass
+### aos
 
