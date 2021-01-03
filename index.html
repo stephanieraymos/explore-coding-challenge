@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/css/styles.css">
-      
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     </style>
     <title>Explore</title>
   </head>
@@ -29,15 +29,14 @@
     </div>
 
     <!-- Facebook and Instagram buttons -->
-    <button class="facebook"><a href="https://www.facebook.com" target="_blank"><img src="img/Facebook.svg" alt="Facebook"></a></button>
-    <button class="instagram"><a href="https://www.instagram.com" target="_blank"><img src="img/Instagram.svg" alt="Instagram"></a></button>
+    <div class="btn-parent">
+      <button class="facebook"><a href="https://www.facebook.com" target="_blank"><img src="img/Facebook.svg" alt="Facebook"></a></button>
+      <button class="instagram"><a href="https://www.instagram.com" target="_blank"><img src="img/Instagram.svg" alt="Instagram"></a></button>
+    </div>
 
     <script src = "modal.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
-        offset: 400,
-        duration: 1000
       });
     </script>    
   </body>

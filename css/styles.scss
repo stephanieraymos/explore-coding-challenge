@@ -28,6 +28,13 @@ body {
   padding-bottom: 0;
 }
 
+@media only screen and (min-width: 900px) {
+  .explore {
+    font-size: 12vw;
+  }
+}
+
+
 /* More details button */
 .more-details {
   background-color: transparent;
@@ -39,28 +46,35 @@ body {
   font-weight: bold;
 }
 
+
 /* Facebook button */
+
+.btn-parent {
+  display: flex;
+  align-items: flex;
+}
+
 .facebook {
   background-color: transparent;
   border: none;
-  bottom: 12%;
-  right: 1.2%;
+  right: 1.5%;
+  bottom: 13%;
   font-size: 30px;
   color: white;
   font-weight: bold;
-  position: fixed;
+  position: absolute;
 }
 
 /* Instagram button */
 .instagram {
   background-color: transparent;
   border: none;
-  bottom: 3%;
+  bottom: 0;
   right: 1%;
   font-size: 30px;
   color: white;
   font-weight: bold;
-  position: fixed;
+  position: absolute;
 }
 
 
@@ -74,9 +88,9 @@ body {
   z-index: 1; /*Sit on top*/
   left: 0;
   top: 0;
-  width: 40%;
+  width: 75%;
   height: 100%;
-  overflow: auto; /* Enable scroll if needed */
+  // overflow: auto; /* Enable scroll if needed */
 }
 
 /*Modal Content Box*/
